@@ -20,10 +20,8 @@ We test whether telling a vision-language model that a conversation is a scored 
 notebooks/   Colab notebook that generates responses and runs the judging and analysis
 scripts/     judge_v4.py, validate_by_cue.py, cue_mention_tables.py, export_fresh_hindi.py
 data/
-  main_run/  responses_main.jsonl, judged_main_gemma12b.jsonl, judged_main_qwen7b.jsonl, sample_main.csv
-  validation/ labelled and blind validation sheets (main run)
-  pilot/     pilot responses and pilot validation sheets
-results/     tables written by the scripts (tables_main_gemma12b/, final_gee_results.csv, cue_mention_tests_*.csv)
+main/  responses_main.jsonl, judged_main_gemma12b.jsonl, judged_main_qwen7b.jsonl, sample_main.csv
+validation/ labelled and blind validation sheets (main run)
 ```
 
 ### Label files
